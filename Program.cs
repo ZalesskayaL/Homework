@@ -72,6 +72,18 @@ Console.Write($"Max = {max}");
 -3 -> нет
 7 -> нет
 */
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 > 0)
+{
+    Console.WriteLine("Число " + num + " - нечетное");
+}
+else
+{
+    Console.WriteLine("Число " + num + " - четное");
+}
+
 
 /*
 Задача 8: Напишите программу, которая на вход принимает число (N),
