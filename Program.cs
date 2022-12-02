@@ -72,6 +72,7 @@ Console.Write($"Max = {max}");
 -3 -> нет
 7 -> нет
 */
+/*
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -83,7 +84,7 @@ else
 {
     Console.WriteLine("Число " + num + " - четное");
 }
-
+*/
 
 /*
 Задача 8: Напишите программу, которая на вход принимает число (N),
@@ -92,3 +93,16 @@ else
 5 -> 2, 4
 8 -> 2, 4, 6, 8
 */
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int a = 2;
+
+while (a <= num)
+{
+    if (a % 2 == 0)
+    {
+         Console.Write(a + " ");
+    }
+
+    a = a + 1;
+}
